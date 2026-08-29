@@ -1,0 +1,21 @@
+srcgroup,rank,facility_id,nei_facility_name,so2_tpy_point_ready,so2_gps_point_ready,point_ready_rows,near_zero_so2,decision
+FAC001,1,4835311,GALVESTON BAY REFINERY,645.6491,18.573154836210488,105,False,keep_facility_even_if_Q_is_zero_for_facility-set_comparability
+FAC002,2,4941411,CHANNELVIEW PLANT,78.30649999999999,2.2526148478821026,43,False,keep_facility_even_if_Q_is_zero_for_facility-set_comparability
+FAC003,3,5632711,DOW TEXAS OPERATIONS FREEPORT,12.5088,0.35983613887975646,127,False,keep_facility_even_if_Q_is_zero_for_facility-set_comparability
+FAC004,4,4058611,DEER PARK TERMINAL,2.1184,0.0609392488970066,7,False,keep_facility_even_if_Q_is_zero_for_facility-set_comparability
+FAC005,5,6422011,DEER PARK TERMINAL,0.2101,0.006043870937151192,21,False,keep_facility_even_if_Q_is_zero_for_facility-set_comparability
+FAC006,6,4924411,BAYTOWN REFINERY,1484.3762,42.70051487376928,157,False,keep_facility_even_if_Q_is_zero_for_facility-set_comparability
+FAC007,7,6671511,LBC HOUSTON BAYPORT TERMINAL,4.7466,0.1365437305582192,18,False,keep_facility_even_if_Q_is_zero_for_facility-set_comparability
+FAC008,8,4168511,DEER PARK CHEMICALS,297.66040000000004,8.562689389342212,80,False,keep_facility_even_if_Q_is_zero_for_facility-set_comparability
+FAC009,9,4055911,DEER PARK FACILITY,0.0148,0.00042574626306443434,1,False,keep_facility_even_if_Q_is_zero_for_facility-set_comparability
+FAC010,10,3930711,TEXAS CITY CHEMICAL PLANT,0.38019999999999987,0.010937076298452558,16,False,keep_facility_even_if_Q_is_zero_for_facility-set_comparability
+FAC011,11,4056511,BAYTOWN OLEFINS PLANT,21.8378,0.6282001178073313,63,False,keep_facility_even_if_Q_is_zero_for_facility-set_comparability
+FAC012,12,4056411,CEDAR BAYOU PLANT,20.4136,0.5872306699791984,65,False,keep_facility_even_if_Q_is_zero_for_facility-set_comparability
+FAC013,13,4925111,CHANNELVIEW COMPLEX,18.9393,0.5448200135173136,75,False,keep_facility_even_if_Q_is_zero_for_facility-set_comparability
+FAC014,14,6421811,BAYTOWN CHEMICAL PLANT,7.0497,0.20279617775171233,31,False,keep_facility_even_if_Q_is_zero_for_facility-set_comparability
+FAC015,15,5019011,SWEENY OLD OCEAN FACILITIES,19.853,0.5711040919336631,41,False,keep_facility_even_if_Q_is_zero_for_facility-set_comparability
+FAC016,16,3737711,GALENA PARK TERMINAL,0.19140000000000001,0.0055059347804414,17,False,keep_facility_even_if_Q_is_zero_for_facility-set_comparability
+FAC017,17,6421511,PASADENA PLANT,0.10779999999999999,0.003101043726915272,4,False,keep_facility_even_if_Q_is_zero_for_facility-set_comparability
+FAC018,18,16872411,LAB CHOCOLATE BAYOU PLANT,0.1905,0.005480044804984779,7,False,keep_facility_even_if_Q_is_zero_for_facility-set_comparability
+FAC019,19,4762811,HOUSTON REFINING,544.3497,15.659111525354453,46,False,keep_facility_even_if_Q_is_zero_for_facility-set_comparability
+FAC020,20,5018711,SWEENY REFINERY PETROCHEM,172.5552,4.963833214347033,57,False,keep_facility_even_if_Q_is_zero_for_facility-set_comparability

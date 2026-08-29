@@ -1,0 +1,49 @@
+{
+  "pollutant": "SO2",
+  "aermod_version": "24142",
+  "aermet_version": "24142",
+  "inventory_pollutant_code": "SO2",
+  "inventory_source": "2021 EPA point-source inventory, 2021hb point_inventory_2021hb_24may2024.zip",
+  "emissions_units": "tons/year in inventory; converted to g/s for AERMOD SRCPARAM and Q",
+  "concentration_units": "micrograms per cubic meter",
+  "chemistry_decay_mode": "regulatory_default_so2_4hour_exponential_decay_for_urban_sources",
+  "regulatory_half_life_seconds": 14400.0,
+  "regulatory_half_life_hours": 4.0,
+  "equivalent_decay_coefficient_s^-1": 4.813522087221842e-05,
+  "decay_configuration": "AERMOD regulatory-default SO2 urban-source treatment; no HALFLIFE or DCAYCOEF card is specified",
+  "control_file_options": {
+    "MODELOPT": "CONC DFAULT",
+    "POLLUTID": "SO2 H1H",
+    "HALFLIFE": "",
+    "DCAYCOEF": "",
+    "URBANOPT": "5853575 HOUSTON",
+    "URBANSRC": "ALL"
+  },
+  "urban_source_configuration": {
+    "all_sources_treated_as_urban": true,
+    "urban_population": 5853575,
+    "urban_name": "HOUSTON",
+    "source_card": "SO URBANSRC ALL",
+    "applicability": "The facility-z/h0 controls use URBANOPT HOUSTON and URBANSRC ALL, so all active facility sources are urban for AERMOD's SO2 decay treatment."
+  },
+  "documentation_basis": {
+    "epa_user_guide": "AERMOD User's Guide v24142 says SO2 triggers a 4-hour half-life for SO2 decay for urban applications under regulatory default and non-default options.",
+    "installed_source_code": [
+      "aermod_source_code_24142/calc2.f applies DECOEF=0.0000481 for urban SO2 sources unless HALFLIFE/DCAYCOEF override it.",
+      "aermod_source_code_24142/inpsum.f prints the regulatory-default urban SO2 half-life note."
+    ]
+  },
+  "selected_meteorological_hours": "written to facility_z_h0_met_hours.csv during prepare",
+  "receptor_configuration": {
+    "heights_m": [
+      1.5,
+      5.0,
+      10.0,
+      25.0,
+      50.0
+    ],
+    "source": "same facility_z/h0 census plus dense facility receptors as existing matched builder"
+  },
+  "uses_edf_observations": false,
+  "production_gate": "Run extraction QA, SO2 regulatory-decay smoke, zero-emission smoke, inert comparison, parse QA, and parity checks before full 2,200-scenario production."
+}

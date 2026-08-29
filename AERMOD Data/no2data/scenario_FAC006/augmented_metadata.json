@@ -1,0 +1,33 @@
+{
+  "fac": "FAC006",
+  "n_scenarios": 110,
+  "n_rows": 2550350,
+  "n_shards": 2,
+  "columns": [
+    "t",
+    "x",
+    "y",
+    "z",
+    "cx",
+    "cy",
+    "h0",
+    "d",
+    "Q",
+    "u",
+    "v",
+    "kappa",
+    "T_K",
+    "C_NOx",
+    "C_O3",
+    "J_NO2",
+    "r",
+    "phi"
+  ],
+  "source_no2_dir": "/Users/neevpratap/Downloads/emmisionsdata/pinn_data/scenarios_houston_2021_facility_z_h0_no2_pvmrm_r010",
+  "source_nox_dir": "/Users/neevpratap/Downloads/emmisionsdata/github_pinn_data/noxdata",
+  "no2_ratio": 0.1,
+  "chemistry": "PVMRM",
+  "J_NO2_method": "solar_radiation_linear_Kj=1.47e-5",
+  "T_K_source": "AERMET_SFC_col18",
+  "O3_source": "AQS_hourly_OZONEFIL_with_AERMOD_OZONEVAL_substitution"
+}

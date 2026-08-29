@@ -1,0 +1,17 @@
+{
+  "facility": "FAC001",
+  "datetime": "2021-01-01 12:00:00",
+  "so2_rows": 23185,
+  "inert_rows": 17010,
+  "matched_rows": 17010,
+  "so2_decay_min": 0.00013,
+  "so2_decay_max": 60.14544,
+  "inert_min": 0.00023,
+  "inert_max": 60.21946,
+  "all_decay_le_inert": true,
+  "max_inert_minus_decay": 0.07401999999999731,
+  "mean_inert_minus_decay": 0.000491305114638448,
+  "positive_differences": 17010,
+  "nonzero_decay_rows": 17010,
+  "nonzero_inert_rows": 17010
+}

@@ -1,0 +1,39 @@
+{
+  "facilities": {
+    "base_rows": 20,
+    "so2_rows": 20,
+    "same": true
+  },
+  "spatial_receptors": {
+    "base_rows": 4637,
+    "so2_rows": 4637,
+    "same": true
+  },
+  "receptor_map": {
+    "base_rows": 23185,
+    "so2_rows": 23185,
+    "same": true
+  },
+  "met_hours_file": {
+    "base_rows": 110,
+    "so2_rows": 110,
+    "same": true
+  },
+  "manifest": {
+    "base_rows": 2200,
+    "so2_rows": 2200,
+    "same": true
+  },
+  "pollutant": "SO2",
+  "facility_count": 20,
+  "selected_met_hours": 110,
+  "manifest_runs": 2200,
+  "spatial_points": 4637,
+  "receptor_height_points": 23185,
+  "expected_rows": 51007000,
+  "parsed_rows": 51007000,
+  "parsed_shards": 40,
+  "shard_schema": "single data array, 13 float32 columns",
+  "uses_edf_observations": false,
+  "chemistry": "AERMOD v24142 regulatory default urban SO2 4-hour half-life via MODELOPT CONC DFAULT, POLLUTID SO2 H1H, URBANSRC ALL"
+}
